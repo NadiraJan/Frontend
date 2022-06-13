@@ -1,0 +1,25 @@
+h2{
+    color:aqua;
+    background-color:blue
+
+
+}
+.title1{
+    color:brown;
+    background-color: bisque;
+}
+#paragraph{color:blueviolet;
+
+}
+.container{
+    width: 300px; 
+    height: 250px;
+}
+
+a:hover{
+    font-size: 30px;
+    color:brown
+} 
+.afbeelding{
+    width: 100px;
+}
