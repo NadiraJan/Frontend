@@ -1,3 +1,13 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: #555 ;
+    background-image: url("https://nicefon.ru/download/original/177688/f4f017f3f0d4d2c9/8/ponte_vecchio_florenciya_italiya_reka_staryy_most_italy_florence.html") ;
+    background-repeat: no-repeat;
+    background-repeat: space;
+    
+}
+
 h2{
     color:aqua;
     background-color:blue
@@ -8,7 +18,14 @@ h2{
     color:brown;
     background-color: bisque;
 }
-#paragraph{color:blueviolet;
+
+#paragraaf2{color:blueviolet;
+    
+    border-style: solid;
+    border-color: bisque;
+    border: width 10px;
+    border-style: groove;
+
 
 }
 .container{
@@ -22,4 +39,18 @@ a:hover{
 } 
 .afbeelding{
     width: 100px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: rg#66ee33;
+    color: #6d6dcc;
+    font-size: 35px;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    border:3px dashed ;
 }
