@@ -1,6 +1,6 @@
 body{
-    background-color: aquamarine;
-    font-size: medium;
+    background-color: rgb(190, 233, 219);
+   
     font-family: sans-serif;
 }
 
@@ -17,8 +17,10 @@ body{
     background-color: blueviolet;
 }
 
-
-
+h4{
+    text-align: center;
+    background-color: dodgerblue;
+}
 
 .container{
 width: 300px; 
@@ -26,7 +28,7 @@ height: 250px;
 }
 
 a:hover{
-font-size: 30px;
+
 color:brown
 } 
 .afbeelding{
@@ -35,9 +37,9 @@ width: 100px;
 button{
 height: 50px;
 width: 120px;
-background-color: rg#66ee33;
+background-color: rg#ee33b6;
 color: #6d6dcc;
-font-size: 35px;
+
 border-radius: 50%;
 }
 button:hover{
