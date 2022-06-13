@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: blue;
+    font-size: 10px ;
+}
+
+.p{
+    border-style: dotted;
+}
+
+.paragraaf2{
+    background-color: blueviolet;
+}
+
+
+
+
+.container{
+width: 300px; 
+height: 250px;
+}
+
+a:hover{
+font-size: 30px;
+color:brown
+} 
+.afbeelding{
+width: 100px;
+}
+button{
+height: 50px;
+width: 120px;
+background-color: rg#66ee33;
+color: #6d6dcc;
+font-size: 35px;
+border-radius: 50%;
+}
+button:hover{
+background-color: rgb(165, 42, 118);
+color: white;
+cursor: pointer;
+border:3px dashed ;
+}
