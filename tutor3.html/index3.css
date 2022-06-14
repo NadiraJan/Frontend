@@ -1,0 +1,33 @@
+talble, th, td{
+    border: 2px solid crimson;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 10px;
+}
+
+table{
+    margin: 30px ;
+
+}
+#tableLayOut{
+background-color: bisque;
+}
+
+#tableLayOut th, #tableLayOut td:nth-child(1){
+    color: rgb(3, 53, 36) !important;
+}
+#tableLayOut td:not(:nth-child(1)){
+    color: darkkhaki;
+}
+#tableLayOut tr:nth-child(2n){
+    background-color: darkgreen;
+    color: cornsilk;
+}
+
+#tableLayOut tr:nth-child(2n+1){
+    background-color: crimson 
+}
+#tableLayOut tr:nth-child(2n)>td{
+    color:blue;
+}
