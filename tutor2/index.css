@@ -55,17 +55,65 @@ footer h5{
     color: greenyellow;
     text-shadow: 0 0 10px rgb(6, 25, 61), 0 0 15px crimson ;
 }
-.sidebar{
+.sidebar>ol{
     border:3px dotted cornflowerblue;
+    font-size: 25px;
     
+}
+.sidebar{
+width: 30%;
+}
 
+.sidebar>ol>li::marker{
+    color: blue;
 }
 .blog{
 font-size: 20px;
-    padding: 20px;
+    padding: 0 20px;
+    margin: 0;
+    border: 2px solid crimson;
+    
 }
 
-.containter{
+.container{
     display: flex;
     margin: 10px;
+}
+
+.flexbox{
+    position: relative;
+    margin: 0 auto;
+    border: 3px solid chocolate;
+    width:80%;
+    
+
+}
+.flexbox div{
+    width: 100px;
+    height: 100px;
+}
+#box1{
+    background-color: brown;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
+    background-color:bisque ;
+}
+    
+#box4{
+    background-color:darkmagenta ;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 1;
+}
+
+#box5{
+    background-color:darkorange ;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 5 ;
 }
