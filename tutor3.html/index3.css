@@ -31,3 +31,21 @@ background-color: bisque;
 #tableLayOut tr:nth-child(2n)>td{
     color:blue;
 }
+#lijn{
+    width: 800px;
+    text-align: center;
+}
+#lijn th, #lijn td,#lijn{
+    border: none !important;
+}
+#lijn th, #lijn td{
+    border-bottom: 3px solid chartreuse !important;
+    border-right: 2px solid cornflowerblue !important;
+}
+#lijn td{
+    height: 50px;
+    vertical-align: bottom;
+}
+#lijn td:nth-child(1){
+    text-align: end;
+}
