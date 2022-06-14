@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+
+body{
+    background-color:(120,120,120) ;
+    margin: 0;
+    padding: 0;
+}
+#titel{
+    text-align: center;
+    color: brown;
+}
+footer{
+    background-color: aqua;
+}
+
+footer h5{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px ;
+    color: blue;
+}
+#nav{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav>li{
+  
+    margin-right: 20px;
+}
+
+/*#nav>li::marker{
+    font-size: 40px;
+    color:blue;
+    content: "👌"
+}*/
+
+
+#nav>li>a{
+    text-align: none;
+    color: darkgoldenrod;
+    margin-right: 20px;
+    padding: 20px 0;
+}
+
+.navbar{
+    background-color:darkgrey;
+}
+
+#nav>li>a:hover{
+    color: greenyellow;
+    text-shadow: 0 0 10px rgb(6, 25, 61), 0 0 15px crimson ;
+}
+.sidebar{
+    border:3px dotted cornflowerblue;
+    
+
+}
+.blog{
+font-size: 20px;
+    padding: 20px;
+}
+
+.containter{
+    display: flex;
+    margin: 10px;
+}
