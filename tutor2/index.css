@@ -5,6 +5,7 @@ body{
     background-color:(120,120,120) ;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 #titel{
     text-align: center;
@@ -12,6 +13,9 @@ body{
 }
 footer{
     background-color: aqua;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 footer h5{
@@ -49,6 +53,8 @@ footer h5{
 
 .navbar{
     background-color:darkgrey;
+    position: sticky;
+    top: 0;
 }
 
 #nav>li>a:hover{
@@ -89,6 +95,7 @@ font-size: 20px;
 
 }
 .flexbox div{
+    position: relative;
     width: 100px;
     height: 100px;
 }
@@ -97,9 +104,17 @@ font-size: 20px;
 }
 #box2{
     background-color: blueviolet;
+    position: absolute;
+    left: 50;
+    transform: translate(240px);
 }
 #box3{
     background-color:bisque ;
+    position: absolute;
+   top: 0;
+   left: 40px;
+   transform: matrix(2, 4, 2, 3, 2,2);
+
 }
     
 #box4{
@@ -107,7 +122,9 @@ font-size: 20px;
     position: absolute;
     top: 0;
     left: 20px;
-    z-index: 1;
+    /*z-index: 1;*/
+    transform: scale(55%);
+    transform: skew(30deg);
 }
 
 #box5{
@@ -115,5 +132,6 @@ font-size: 20px;
     position: absolute;
     top: 0;
     left: 10px;
-    z-index: 5 ;
+    /*z-index: 5 ;*/
+    transform: rotate(45deg);
 }
