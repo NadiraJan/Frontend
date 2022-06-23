@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url(https://nicefhttps://pixabay.com/images/search/desktop%20wallpaper/on.ru/download/original/67559/f0e2f1c5ccc8e88/37/sneg_lisa_ryghaya.html);
+    background-image: no repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    text-align: left;
+    color: blue;
+}
+
+#h1{
+    background-color: blanchedalmond;
+    color:mediumblue;
+    font-family:url(https://fonts.google.com/specimen/Dancing+Script);
+}
+#nav{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav>li{
+    margin-right: 20px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.sidebar{
+    border: 1px dotted rgb(250, 230, 232);
+    width: 20%;
+    background-color: beige;
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+
+}
+
+footer{
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer>h5{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color:chartreuse;
+}
+
+table, th, td{
+    border: 2px solid cadetblue;
+    background-color: beige;
+    
+
+}
+button{
+    align-content: right;
+    margin-left: 70%;
+    
+    
+    
+}
